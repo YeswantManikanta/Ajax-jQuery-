@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Know Your Country</title>
+        <meta name="viewport" content="width=device-width", intial-sacale=1">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/Script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="nav-header">
+                    <a class="navbar-brand " href="/Country.html">Country Guide</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h1>Know About Your Country </h1>
+                <div class="input-box">
+                    <input class="text-center" type="text" placeholder="Enter Your Country Name" id="country" required>
+                    
+                </div>
+                <div>
+                    <br>
+                    <button id="btn_search" type="button" class="btn btn-primary" onclick="getSearchQuery();">Get Details</button>
+                </div>
+            </div>
+
+            <div id="message">
+                
+            </div>
+        </div>
+    </body>
+</html>
